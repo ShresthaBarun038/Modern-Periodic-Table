@@ -1,0 +1,2897 @@
+// program to locate elements of modern periodic table and their details on basis of their atomic number.
+#include<stdio.h>
+int main()
+ {
+	int n,a;
+	char ask;
+	printf(" \n welcome to Modern periodic Table :) :) \n \n");
+	printf("> Enter 1 to know about an element\n \n");
+	printf("> Enter 2 to exit the periodic table\n\n");
+	beginning:
+	printf("Enter Here: ");
+	scanf("%d", &n);
+	
+	if(n==1)
+	{
+		    start:
+	    	printf("\n\n \nEnter  the atomic number of the element you want to know: \n");
+	    	scanf("%d",&a);
+	    	
+	    	if(a==1)
+	    	{
+	    	    	printf("the element you are searching for is Hydrogen. \n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Hydrogen\n");
+	    			printf("                  symbol: H\n");
+	    			printf("               atomic no: 1\n");
+	    			printf("           atomic weight: 1.008 amu\n");
+	    			printf("electronic configuration: 1s^1\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: IA\n");
+	    			printf("            discovered by: Henry Cavendish\n\n\n");
+	    		     printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    	        }		
+			}
+		
+		    else if(a==2)
+		    {
+		    	    printf("the element you are searching for is Helium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Helium\n");
+	    			printf("                  symbol: He\n");
+	    			printf("               atomic no: 2\n");
+	    			printf("           atomic weight: 4 amu\n");
+	    			printf("electronic configuration: 1s^2\n");
+	    			printf("                 valency: 0\n");
+	    			printf("                   group: VIIIA(Noble gas)\n");
+	    			printf("           discovered by:Sir William Ramsay\n\n\n ");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	        }
+	
+			else if(a==3)
+			{
+				 printf("the element you are searching for is lithium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: lithium\n");
+	    			printf("                  symbol: Li\n");
+	    			printf("               atomic no: 3\n");
+	    			printf("           atomic weight: 6.941 amu\n");
+	    			printf("electronic configuration: [He] 2s^1\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: IA\n");
+	    			printf("           discovered by:Johann Artvedson\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+			}
+			else if(a==4)	  
+			{
+			   printf("the element you are searching for is Beryllium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Beryllium\n");
+	    			printf("                  symbol: Be\n");
+	    			printf("               atomic no: 4\n");
+	    			printf("           atomic weight: 9.01218 amu\n");
+	    			printf("electronic configuration: [He] 2s^2\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: IIA\n");
+	    			printf("           discovered by:Nicholas Louis Vauquelin\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+		    }
+			else if(a==5)
+			{
+				printf("the element you are searching for is Boron.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Boron\n");
+	    			printf("                  symbol: B\n");
+	    			printf("               atomic no: 5\n");
+	    			printf("           atomic weight: 10.821 amu\n");
+	    			printf("electronic configuration: [He] 2s^2 2p^1\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: IIIA\n");
+	    			printf("           discovered by: Joseph Louis Gay-Lussac\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			} 
+			else if(a==6)
+			{
+			  printf("the element you are searching for is Carbon.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Carbon\n");
+	    			printf("                  symbol: C\n");
+	    			printf("               atomic no: 6\n");
+	    			printf("           atomic weight: 12.011 amu\n");
+	    			printf("electronic configuration: [He]2s^2 2p^2\n");
+	    			printf("                 valency: 4\n");
+	    			printf("                   group: IVA\n");
+	    			printf("           discovered by: Lavoisier \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }		
+			 } 
+			 else if(a==7)
+			 {
+			 	printf("the element you are searching for is Nitrogen.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Nitrogen\n");
+	    			printf("                  symbol: N\n");
+	    			printf("               atomic no: 7\n");
+	    			printf("           atomic weight: 14.007 amu\n");
+	    			printf("electronic configuration: [He] 2s^2 2p^3\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: VA\n");
+	    			printf("           discovered by: Daniel Rutherford \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			 }
+			 else if(a==8)
+			 {
+			 	printf("the element you are searching for is Oxygen.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Oxygen\n");
+	    			printf("                  symbol: O\n");
+	    			printf("               atomic no: 8\n");
+	    			printf("           atomic weight: 15.999 amu\n");
+	    			printf("electronic configuration: [He] 2s^2 2p^4\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: VIA\n");
+	    			printf("           discovered by: Joseph Priestly\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			 }
+			 else if(a==9)
+			 {
+			 	printf("the element you are searching for is Fluorine.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Fluorine\n");
+	    			printf("                  symbol: F\n");
+	    			printf("               atomic no: 9\n");
+	    			printf("           atomic weight: 18.998403 amu\n");
+	    			printf("electronic configuration: [He] 2s^2 2p^5\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: VIIA\n");
+	    			printf("           discovered by: Henri Moissan\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			 }
+
+		        else if(a==10)
+			 {
+			 	printf("the element you are searching for is Neon.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Neon\n");
+	    			printf("                  symbol: Ne\n");
+	    			printf("               atomic no: 10\n");
+	    			printf("           atomic weight: 20.180 amu\n");
+	    			printf("electronic configuration: [He] 2s^2 2p^6\n");
+	    			printf("                 valency: 0\n");
+	    			printf("                   group: VIIIA(Noble gas)\n");
+	    			printf("           discovered by: Sir William Ramsay and Morris Travers\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==11)
+			 {
+			 	printf("the element you are searching for is Sodium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Sodium\n");
+	    			printf("                  symbol: Na\n");
+	    			printf("               atomic no: 11\n");
+	    			printf("           atomic weight: 22.990 amu\n");
+	    			printf("electronic configuration: [Ne] 3s^1\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: IA\n");
+	    			printf("           discovered by: Humphry Davy\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==12)
+			 {
+			 	printf("the element you are searching for is Magnesium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Magnesium\n");
+	    			printf("                  symbol: Mg\n");
+	    			printf("               atomic no: 12\n");
+	    			printf("           atomic weight: 24.305 amu\n");
+	    			printf("electronic configuration: [Ne] 3s^2\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: IIA\n");
+	    			printf("           discovered by: Joseph Black\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==13)
+			 {
+			 	printf("the element you are searching for is Aluminum.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Aluminum\n");
+	    			printf("                  symbol: Al\n");
+	    			printf("               atomic no: 13\n");
+	    			printf("           atomic weight: 26.98amu \n");
+	    			printf("electronic configuration: [Ne] 3s^2 3p^1\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: IIIA\n");
+	    			printf("           discovered by: Hans Christian Oersted \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==14)
+			 {
+			 	printf("the element you are searching for is Silicon .\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Silicon \n");
+	    			printf("                  symbol: Si\n");
+	    			printf("               atomic no: 14\n");
+	    			printf("           atomic weight: 28.0855 amu\n");
+	    			printf("electronic configuration: [Ne] 3s^2 3p^2\n");
+	    			printf("                 valency: 4\n");
+	    			printf("                   group: IVA\n");
+	    			printf("           discovered by: Jöns Jacob Berzelius\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==15)
+			 {
+			 	printf("the element you are searching for is Phosphorus.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Phosphorus\n");
+	    			printf("                  symbol: P\n");
+	    			printf("               atomic no: 15\n");
+	    			printf("           atomic weight: 30.974 amu\n");
+	    			printf("electronic configuration: [Ne] 3s^2 3p^3\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: VA\n");
+	    			printf("           discovered by: Hennig Brandt\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==16)
+			 {
+			 	printf("the element you are searching for is Sulphur.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Sulphur\n");
+	    			printf("                  symbol: S\n");
+	    			printf("               atomic no: 16\n");
+	    			printf("           atomic weight: 32.06 amu\n");
+	    			printf("electronic configuration: [Ne] 3s^2 3p^4\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: VIA\n");
+	    			printf("           discovered by: Antoine Lavoisier\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask); 
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==17)
+			 {
+			 	printf("the element you are searching for is Chlorine.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Chlorine\n");
+	    			printf("                  symbol: Cl\n");
+	    			printf("               atomic no: 17\n");
+	    			printf("           atomic weight: 35.453 amu\n");
+	    			printf("electronic configuration:  [Ne]3s^2 3p^5\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: VIIA\n");
+	    			printf("           discovered by: Carl Wilhelm Scheele\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==18)
+			 {
+			 	printf("the element you are searching for is Argon.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Argon\n");
+	    			printf("                  symbol: Ar\n");
+	    			printf("               atomic no: 18\n");
+	    			printf("           atomic weight: 39.948  amu\n");
+	    			printf("electronic configuration: [Ne] 3s^2 3p^6\n");
+	    			printf("                 valency: 0\n");
+	    			printf("                   group: VIIIA(Noble gas)\n");
+	    			printf("           discovered by: Sir Ramsay\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==19)
+			 {
+			 	printf("the element you are searching for is Potassium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Potassium\n");
+	    			printf("                  symbol: K\n");
+	    			printf("               atomic no: 19\n");
+	    			printf("           atomic weight: 39.0983 amu\n");
+	    			printf("electronic configuration: [Ar] 4s^1\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: IA\n");
+	    			printf("           discovered by: Humphry Davy\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==20)
+			 {
+			 	printf("the element you are searching for is Calcium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Calcium\n");
+	    			printf("                  symbol: Ca\n");
+	    			printf("               atomic no: 20\n");
+	    			printf("           atomic weight: 40.08  amu\n");
+	    			printf("electronic configuration: [Ar] 4s^2\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: IIA\n");
+	    			printf("           discovered by: Humphry Davy\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+						else if(a==21)
+			 {
+			 	printf("the element you are searching for is Scandium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Scandium\n");
+	    			printf("                  symbol: Sc\n");
+	    			printf("               atomic no: 21\n");
+	    			printf("           atomic weight: 44.955   amu\n");
+	    			printf("electronic configuration: [Ar]3d^1 4s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IIIB\n");
+	    			printf("           discovered by: Lars Frederik Nilson\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				
+			 }
+			 		else if(a==22)
+			 {
+			 	printf("the element you are searching for is Titanium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Titanium\n");
+	    			printf("                  symbol: Ti\n");
+	    			printf("               atomic no: 22\n");
+	    			printf("           atomic weight: 47.867 amu\n");
+	    			printf("electronic configuration: [Ar] 3d^2 4s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IVB\n");
+	    			printf("           discovered by: William Gregor\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	    	}
+	    		else if(a==23)
+	    	
+			 {
+			 	printf("the element you are searching for is Vanadium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Vanadium\n");
+	    			printf("                  symbol: V\n");
+	    			printf("               atomic no: 23\n");
+	    			printf("           atomic weight: 50.9414 amu\n");
+	    			printf("electronic configuration: [Ar] 3d^3 4s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VB\n");
+	    			printf("           discovered by: Nils Sefstrom\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==24)
+			 {
+			 	printf("the element you are searching for is Chromium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Chromium\n");
+	    			printf("                  symbol: Cr\n");
+	    			printf("               atomic no: 24\n");
+	    			printf("           atomic weight: 51.996 amu\n");
+	    			printf("electronic configuration: [Ar]3d^5 4s^1\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIB\n");
+	    			printf("           discovered by: Vaughlin\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==25)
+			 {
+			 	printf("the element you are searching for is Manganese.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Manganese\n");
+	    			printf("                  symbol: Mn\n");
+	    			printf("               atomic no: 25\n");
+	    			printf("           atomic weight: 54.938  amu\n");
+	    			printf("electronic configuration: [Ar] 3d^5 4s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIIB\n");
+	    			printf("           discovered by: Johan Gottlieb Gahn\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==26)
+			 {
+			 	printf("the element you are searching for is Iron.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Iron\n");
+	    			printf("                  symbol: Fe\n");
+	    			printf("               atomic no: 26\n");
+	    			printf("           atomic weight: 55.85  amu\n");
+	    			printf("electronic configuration: [Ar] 3d^6 ^\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: The Ancients\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==27)
+			 {
+			 	printf("the element you are searching for is Cobalt.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Cobalt\n");
+	    			printf("                  symbol: Co\n");
+	    			printf("               atomic no: 27\n");
+	    			printf("           atomic weight: 58.933  amu\n");
+	    			printf("electronic configuration: [Ar] 3d^7 4s^2");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by:  Georg Brandt\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    	else if(a==28)
+			 {
+			 	printf("the element you are searching for is Nickel.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Nickel\n");
+	    			printf("                  symbol: Ni\n");
+	    			printf("               atomic no: 28\n");
+	    			printf("           atomic weight: 58.693  amu\n");
+	    			printf("electronic configuration: [Ar] 3d^8 4s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: Axel Fredrik Cronstedt\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    			else if(a==29)
+			 {
+			 	printf("the element you are searching for is Copper.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Copper\n");
+	    			printf("                  symbol: Cu\n");
+	    			printf("               atomic no: 29\n");
+	    			printf("           atomic weight: 63.546  amu\n");
+	    			printf("electronic configuration: [Ar] 3d^10 4s^1\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IB\n");
+	    			printf("           discovered by: -\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==30)
+			 {
+			 	printf("the element you are searching for is Zinc.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Zinc\n");
+	    			printf("                  symbol: Zn\n");
+	    			printf("               atomic no: 30\n");
+	    			printf("           atomic weight: 65.37  amu\n");
+	    			printf("electronic configuration: [Ar] 3d^10 4s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IIB\n");
+	    			printf("           discovered by: Andreas Marggraf\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==31)
+			 {
+			 	printf("the element you are searching for is Gallium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Gallium\n");
+	    			printf("                  symbol: Ga\n");
+	    			printf("               atomic no: 31\n");
+	    			printf("           atomic weight: 69.72  amu\n");
+	    			printf("electronic configuration: [Ar] 3d^10 4s^2 4p^1\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: IIIA\n");
+	    			printf("           discovered by: Paul-Émile Lecoq de Boisbaudran\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==32)
+			 {
+			 	printf("the element you are searching for is Germanium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Germanium\n");
+	    			printf("                  symbol: Ge\n");
+	    			printf("               atomic no: 32\n");
+	    			printf("           atomic weight: 72.630  amu\n");
+	    			printf("electronic configuration: [Ar]3d^10 4s^2 4p^2\n");
+	    			printf("                 valency: 4\n");
+	    			printf("                   group: IVA\n");
+	    			printf("           discovered by: Clemens Winkler\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==33)
+			 {
+			 	printf("the element you are searching for is Arsenic.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Arsenic\n");
+	    			printf("                  symbol: As\n");
+	    			printf("               atomic no: 33\n");
+	    			printf("           atomic weight: 74.922  amu\n");
+	    			printf("electronic configuration: [Ar] 3d^10 4s^2 4p^3\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: VA\n");
+	    			printf("           discovered by: Albertus Magnus\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==34)
+			 {
+			 	printf("the element you are searching for is Selenium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Selenium\n");
+	    			printf("                  symbol: Se\n");
+	    			printf("               atomic no: 34\n");
+	    			printf("           atomic weight: 78.91 amu\n");
+	    			printf("electronic configuration: [Ar] 3d^10 4s^2 4p^4\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: VIA\n");
+	    			printf("           discovered by: Jöns Jacob Berzelius\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==35)
+			 {
+			 	printf("the element you are searching for is Bromine.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Bromine\n");
+	    			printf("                  symbol: Br\n");
+	    			printf("               atomic no: 35\n");
+	    			printf("           atomic weight: 79.904 amu\n");
+	    			printf("electronic configuration: [Ar] 4s^2 3d^10 4p^5\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: VIIA\n");
+	    			printf("           discovered by: Johan Gottlieb Gahn\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==36)
+			 {
+			 	printf("the element you are searching for is Krypton.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Krypton\n");
+	    			printf("                  symbol: Kr\n");
+	    			printf("               atomic no: 36\n");
+	    			printf("           atomic weight: 83.798  amu\n");
+	    			printf("electronic configuration: [Ar] 3d^10 4s^2 4p^6\n");
+	    			printf("                 valency: 0\n");
+	    			printf("                   group: VIIIA(Noble gas)\n");
+	    			printf("           discovered by: Sir William Ramsay and Morris Travers\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==37)
+			 {
+			 	printf("the element you are searching for is Rubidium .\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Rubidium \n");
+	    			printf("                  symbol: Rb\n");
+	    			printf("               atomic no: 37\n");
+	    			printf("           atomic weight: 85.4678  amu\n");
+	    			printf("electronic configuration: [Kr] 5s^1\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: IA\n");
+	    			printf("           discovered by: Gustav Kirchhoff and Robert Bunsen\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==38)
+			 {
+			 	printf("the element you are searching for is Strontium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Strontium\n");
+	    			printf("                  symbol: Sr\n");
+	    			printf("               atomic no: 38\n");
+	    			printf("           atomic weight: 87.62   amu\n");
+	    			printf("electronic configuration: [Kr] 5s^2\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: IIA\n");
+	    			printf("           discovered by: Adair Crawford\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==39)
+			 {
+			 	printf("the element you are searching for is Yttrium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Yttrium\n");
+	    			printf("                  symbol: Yt\n");
+	    			printf("               atomic no: 39\n");
+	    			printf("           atomic weight: 88.906 amu\n");
+	    			printf("electronic configuration: [Kr] 4d^1 5s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IIIB\n");
+	    			printf("           discovered by: Johan Gadolin\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==40)
+			 {
+			 	printf("the element you are searching for is Zirconium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Zirconium\n");
+	    			printf("                  symbol: Zr\n");
+	    			printf("               atomic no: 40\n");
+	    			printf("           atomic weight: 91.224 amu\n");
+	    			printf("electronic configuration: [Kr] 4d^2 5s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IVB\n");
+	    			printf("           discovered by: Martin Klaproth\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==41)
+			 {
+			 	printf("the element you are searching for is Niobium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Niobium\n");
+	    			printf("                  symbol: Nb\n");
+	    			printf("               atomic no: 41\n");
+	    			printf("           atomic weight: 92.906   amu\n");
+	    			printf("electronic configuration: [Kr] 4d^4 5s^1\n");
+	    			printf("                 valency: v\n");
+	    			printf("                   group: VB\n");
+	    			printf("           discovered by: Charles Hatchett\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==42)
+			 {
+			 	printf("the element you are searching for is Molybdenum.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name:Molybdenum\n");
+	    			printf("                  symbol: Mo\n");
+	    			printf("               atomic no: 42\n");
+	    			printf("           atomic weight: 95.95  amu\n");
+	    			printf("electronic configuration: [Kr] 4d^5 5s^1\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIB\n");
+	    			printf("           discovered by: Peter Jacob Hjelm\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==43)
+			 {
+			 	printf("the element you are searching for is Technetium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Technetium\n");
+	    			printf("                  symbol: Tc\n");
+	    			printf("               atomic no: 43\n");
+	    			printf("           atomic weight: 98 amu\n");
+	    			printf("electronic configuration: [Kr] 4d^5 5s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIIB\n");
+	    			printf("           discovered by: Carlo Perrier and Emilio Segre\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==44)
+			 {
+			 	printf("the element you are searching for is Ruthenium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Ruthenium\n");
+	    			printf("                  symbol: Ru\n");
+	    			printf("               atomic no: 44\n");
+	    			printf("           atomic weight: 101.1   amu\n");
+	    			printf("electronic configuration: [Kr] 4d^7 5s^1\n");
+	    			printf("                 valency: v\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: Karl Klaus\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==45)
+			 {
+			 	printf("the element you are searching for is Rhodium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Rhodium\n");
+	    			printf("                  symbol: Rh\n");
+	    			printf("               atomic no: 45\n");
+	    			printf("           atomic weight: 102.91 amu\n");
+	    			printf("electronic configuration: [Kr] 4d^8 5s^1\n");
+	    			printf("                 valency: v\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: William Wollaston\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==46)
+			 {
+			 	printf("the element you are searching for is Palladium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Palladium\n");
+	    			printf("                  symbol: Pd\n");
+	    			printf("               atomic no: 46\n");
+	    			printf("           atomic weight: 106.42  amu\n");
+	    			printf("electronic configuration: [Kr] 4d^10\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: William Hyde Wollaston\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==47)
+			 {
+			 	printf("the element you are searching for is Silver.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Silver\n");
+	    			printf("                  symbol: Ag\n");
+	    			printf("               atomic no: 47\n");
+	    			printf("           atomic weight: 107.868 amu\n");
+	    			printf("electronic configuration: [Kr] 4d^10 5s^1\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IB\n");
+	    			printf("           discovered by: -\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==48)
+			 {
+			 	printf("the element you are searching for is Cadmium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Cadmium\n");
+	    			printf("                  symbol: Cd\n");
+	    			printf("               atomic no: 48\n");
+	    			printf("           atomic weight: 112.414  amu\n");
+	    			printf("electronic configuration: [Kr] 4d^10 5s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IIB\n");
+	    			printf("           discovered by: Friedrich Stromeyer\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==49)
+			 {
+			 	printf("the element you are searching for is Indium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Indium\n");
+	    			printf("                  symbol: In\n");
+	    			printf("               atomic no: 49\n");
+	    			printf("           atomic weight: 114.82   amu\n");
+	    			printf("electronic configuration: [Kr] 4d^10 5s^2 5p^1\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: IIIA\n");
+	    			printf("           discovered by: Ferdinand Reich \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    		    
+	    		    
+	         }
+	         	else if(a==50)
+			 {
+			 	printf("the element you are searching for is Tin.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Tin\n");
+	    			printf("                  symbol: Sn\n");
+	    			printf("               atomic no: 50\n");
+	    			printf("           atomic weight: 118.71  amu\n");
+	    			printf("electronic configuration: [Kr] 4d^10 5s^2 5p^2\n");
+	    			printf("                 valency: 4\n");
+	    			printf("                   group: IVA\n");
+	    			printf("           discovered by: James Smith\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==51)
+			 {
+			 	printf("the element you are searching for is Antimony.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Antimony\n");
+	    			printf("                  symbol: Sb\n");
+	    			printf("               atomic no: 51\n");
+	    			printf("           atomic weight: 121.760  amu\n");
+	    			printf("electronic configuration: [Kr]4d^10 5s^2 5p^3\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: VA\n");
+	    			printf("           discovered by: Nicolas Lémery\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	    else if(a==52)
+		    {
+		    	    printf("the element you are searching for is Tellurium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Tellurium\n");
+	    			printf("                  symbol: Te\n");
+	    			printf("               atomic no: 52\n");
+	    			printf("           atomic weight: 127.6 amu\n");
+	    			printf("electronic configuration: [ Kr ] 4d^10 5s^2 5p^4\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: VIA\n");
+	    			printf("           discovered by: Franz Muller von Reichenstein\n\n\n ");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	        }
+	
+			else if(a==53)
+			{
+				 printf("the element you are searching for is Iodine.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Iodine\n");
+	    			printf("                  symbol: I\n");
+	    			printf("               atomic no: 53\n");
+	    			printf("           atomic weight: 126.9045 amu\n");
+	    			printf("electronic configuration: [Kr] 4d^10 5s^2 5p^5\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: VIIA\n");
+	    			printf("           discovered by: Bernard Courtois\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+			}
+			else if(a==54)	  
+			{
+			   printf("the element you are searching for is Xenon.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Xenon\n");
+	    			printf("                  symbol:Xe\n");
+	    			printf("               atomic no: 54\n");
+	    			printf("           atomic weight: 131.293 amu\n");
+	    			printf("electronic configuration: [Kr] 4d^10 5s^2 5p^6\n");
+	    			printf("                 valency: 0\n");
+	    			printf("                   group: VIIIA(Noble gas)\n");
+	    			printf("           discovered by: William Ramsay\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+		    }
+			else if(a==55)
+			{
+				printf("the element you are searching for is Cesium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name:Cesium\n");
+	    			printf("                  symbol: Cs\n");
+	    			printf("               atomic no: 55\n");
+	    			printf("           atomic weight: 132.9054 amu\n");
+	    			printf("electronic configuration: [Xe] 6s^1\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: IA\n");
+	    			printf("           discovered by: Gustav Kirchhoff and Robert Bunsen\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			} 
+			else if(a==56)
+			{
+			  printf("the element you are searching for is Barium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Barium\n");
+	    			printf("                  symbol: Ba\n");
+	    			printf("               atomic no: 56\n");
+	    			printf("           atomic weight: 137.327 amu\n");
+	    			printf("electronic configuration: [Xe] 6s^2\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: IIA\n");
+	    			printf("           discovered by: Humphry Davy \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }		
+			 } 
+			 else if(a==57)
+			 {
+			 	printf("the element you are searching for is Lanthanum.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Lanthanum\n");
+	    			printf("                  symbol: La\n");
+	    			printf("               atomic no: 57\n");
+	    			printf("           atomic weight: 138.91  amu\n");
+	    			printf("electronic configuration: [Xe] 5d^1 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Carl Gustav Mosander \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			 }
+			 else if(a==58)
+			 {
+			 	printf("the element you are searching for is Cerium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Cerium\n");
+	    			printf("                  symbol: Ce\n");
+	    			printf("               atomic no: 58\n");
+	    			printf("           atomic weight: 140.116  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^1 5d^1 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Jöns Jacob Berzelius and Wilhelm Hisinger\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			 }
+			 else if(a==59)
+			 {
+			 	printf("the element you are searching for is Praseodymium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Praseodymiume\n");
+	    			printf("                  symbol: Pr\n");
+	    			printf("               atomic no: 59\n");
+	    			printf("           atomic weight: 140.91 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^3 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Carl Auer von Welsbach\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			 }
+
+		        else if(a==60)
+			 {
+			 	printf("the element you are searching for is Neodymium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Neodymium\n");
+	    			printf("                  symbol: Nd\n");
+	    			printf("               atomic no: 60\n");
+	    			printf("           atomic weight: 144.242 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^4 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Carl Auer von Welsbach\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==61)
+			 {
+			 	printf("the element you are searching for is Promethium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Promethium\n");
+	    			printf("                  symbol: Pm\n");
+	    			printf("               atomic no: 61\n");
+	    			printf("           atomic weight: 145 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^5 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Mariinsky \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==62)
+			 {
+			 	printf("the element you are searching for is Samarium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Samarium\n");
+	    			printf("                  symbol: Sm\n");
+	    			printf("               atomic no: 62\n");
+	    			printf("           atomic weight: 150.36 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^6 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Paul-Émile Lecoq de Boisbaudran\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==63)
+			 {
+			 	printf("the element you are searching for is Europium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Europium\n");
+	    			printf("                  symbol: Eu\n");
+	    			printf("               atomic no: 63\n");
+	    			printf("           atomic weight: 151.964amu \n");
+	    			printf("electronic configuration: [Xe] 4f^7 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Eugène-Anatole Demarçay \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==64)
+			 {
+			 	printf("the element you are searching for is Gadolinium .\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Gadolinium \n");
+	    			printf("                  symbol: Gd\n");
+	    			printf("               atomic no: 64\n");
+	    			printf("           atomic weight: 157.25 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^7 5d^1 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Jean Charles Galissard de Marignac\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==65)
+			 {
+			 	printf("the element you are searching for is Terbium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Terbium\n");
+	    			printf("                  symbol: Tb\n");
+	    			printf("               atomic no: 65\n");
+	    			printf("           atomic weight: 158.925 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^9 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Carl Gustav Mosander\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==66)
+			 {
+			 	printf("the element you are searching for is Dysprosium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Dysprosium\n");
+	    			printf("                  symbol: Dy\n");
+	    			printf("               atomic no: 66\n");
+	    			printf("           atomic weight: 162.5 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^10 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Paul-Émile Lecoq de Boisbaudran\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask); 
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==67)
+			 {
+			 	printf("the element you are searching for is Holmium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Holmium\n");
+	    			printf("                  symbol: Ho\n");
+	    			printf("               atomic no: 67\n");
+	    			printf("           atomic weight: 164.930 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^11 6s^2	\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Per Teodor Cleve\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==68)
+			 {
+			 	printf("the element you are searching for is Erbium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Erbium\n");
+	    			printf("                  symbol: Er\n");
+	    			printf("               atomic no: 68\n");
+	    			printf("           atomic weight: 167.26  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^12 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Nobel Institute for Physics\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==69)
+			 {
+			 	printf("the element you are searching for is Thulium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Thulium\n");
+	    			printf("                  symbol: Tm\n");
+	    			printf("               atomic no: 69\n");
+	    			printf("           atomic weight: 168.93 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^13 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Per Theodor Cleve \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==70)
+			 {
+			 	printf("the element you are searching for is Ytterbium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Ytterbium\n");
+	    			printf("                  symbol: Yb\n");
+	    			printf("               atomic no: 70\n");
+	    			printf("           atomic weight: 173.045  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: Jean Charles Galissard de Marignac \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+						else if(a==71)
+			 {
+			 	printf("the element you are searching for is Lutetium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Lutetium\n");
+	    			printf("                  symbol: Lu\n");
+	    			printf("               atomic no: 71\n");
+	    			printf("           atomic weight: 174.97  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^1 6S^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Lanthanide\n");
+	    			printf("           discovered by: George Urbain \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				
+			 }
+			 		else if(a==72)
+			 {
+			 	printf("the element you are searching for is Hafnium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Hafnium\n");
+	    			printf("                  symbol: Hf\n");
+	    			printf("               atomic no: 72\n");
+	    			printf("           atomic weight: 178.49  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^2 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IVB\n");
+	    			printf("           discovered by: George Charles de Hevesy and Dirk Coster \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==73)
+	    	
+			 {
+			 	printf("the element you are searching for is Tantalum.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Tantalum\n");
+	    			printf("                  symbol: Ta\n");
+	    			printf("               atomic no: 73\n");
+	    			printf("           atomic weight: 180.948 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^3 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VB\n");
+	    			printf("           discovered by: Anders Gustav Ekeberg \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==74)
+			 {
+			 	printf("the element you are searching for is Tungsten.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Tungsten\n");
+	    			printf("                  symbol: W\n");
+	    			printf("               atomic no: 74\n");
+	    			printf("           atomic weight: 183.84 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^4 6S^2\n");
+	    			printf("                 valency: Variablev\n");
+	    			printf("                   group: VIB\n");
+	    			printf("           discovered by: Fausto and Juan Jose de Elhuyar\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==75)
+			 {
+			 	printf("the element you are searching for is Rhenium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Rhenium\n");
+	    			printf("                  symbol: Re\n");
+	    			printf("               atomic no: 75\n");
+	    			printf("           atomic weight: 186.23  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^5 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIIB\n");
+	    			printf("           discovered by: Walter Noddack, Ida Tacke and Otto Berg\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==76)
+			 {
+			 	printf("the element you are searching for is Osmium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Osmium\n");
+	    			printf("                  symbol: Os\n");
+	    			printf("               atomic no: 76\n");
+	    			printf("           atomic weight: 190.2  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^6 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: Smithson Tennant\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==77)
+			 {
+			 	printf("the element you are searching for is Iridium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Iridium\n");
+	    			printf("                  symbol: Ir\n");
+	    			printf("               atomic no: 77\n");
+	    			printf("           atomic weight: 192.217  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^7 6s^2 \n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: Ghiorso \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    	else if(a==78)
+			 {
+			 	printf("the element you are searching for is Platinum. \n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Platinum\n");
+	    			printf("                  symbol: Pt\n");
+	    			printf("               atomic no: 78\n");
+	    			printf("           atomic weight: 195.09   amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^9 6s^1\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: Julius Scaliger\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    			else if(a==79)
+			 {
+			 	printf("the element you are searching for is Gold.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Gold\n");
+	    			printf("                  symbol: Au\n");
+	    			printf("               atomic no: 79\n");
+	    			printf("           atomic weight: 196.9655  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^10 6s^1\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IB\n");
+	    			printf("           discovered by: --\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==80)
+			 {
+			 	printf("the element you are searching for is Mercury .\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Mercury \n");
+	    			printf("                  symbol: Hg\n");
+	    			printf("               atomic no: 80 \n");
+	    			printf("           atomic weight: 200.59 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^10 6s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IIB\n");
+	    			printf("           discovered by: The Ancient mens\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	    	}
+	    		else if(a==81)
+			 {
+			 	printf("the element you are searching for is Thallium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Thallium\n");
+	    			printf("                  symbol: Tl\n");
+	    			printf("               atomic no: 81\n");
+	    			printf("           atomic weight: 204.383   amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^10 6s^2 6p^1\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: IIIA\n");
+	    			printf("           discovered by: Sir William Crookes\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==82)
+			 {
+			 	printf("the element you are searching for is Lead.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Lead\n");
+	    			printf("                  symbol: Pb\n");
+	    			printf("               atomic no: 82\n");
+	    			printf("           atomic weight: 207.2  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^10 6s^2 6p^2\n");
+	    			printf("                 valency: 4\n");
+	    			printf("                   group: IVA\n");
+	    			printf("           discovered by: -\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==83)
+			 {
+			 	printf("the element you are searching for is Bismuth.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Bismuth\n");
+	    			printf("                  symbol: Bi\n");
+	    			printf("               atomic no: 83\n");
+	    			printf("           atomic weight: 208.980  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14  5d^10 6s^2 6p^3\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: VA\n");
+	    			printf("           discovered by: Claude Geoffroy the Younger\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==84)
+			 {
+			 	printf("the element you are searching for is Polonium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Polonium\n");
+	    			printf("                  symbol: Po\n");
+	    			printf("               atomic no: 84\n");
+	    			printf("           atomic weight: 209  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^10 6s^2 6p^4\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: VIA\n");
+	    			printf("           discovered by: Pierre and Marie Curie \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==85)
+			 {
+			 	printf("the element you are searching for is Astatine.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Astatine\n");
+	    			printf("                  symbol: At\n");
+	    			printf("               atomic no: 85\n");
+	    			printf("           atomic weight: 210 amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^10 6s^2 6p^5\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: VIIA\n");
+	    			printf("           discovered by: Dale R. Corson, Kenneth Ross MacKenzie, Emilio Segrè\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==86)
+			 {
+			 	printf("the element you are searching for is Radon.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Radon\n");
+	    			printf("                  symbol: Rn\n");
+	    			printf("               atomic no: 86\n");
+	    			printf("           atomic weight: 222  amu\n");
+	    			printf("electronic configuration: [Xe] 4f^14 5d^10 6s^2 6p^6\n");
+	    			printf("                 valency: 0\n");
+	    			printf("                   group: VIIIA(Noble gas)\n");
+	    			printf("           discovered by: Friedrich Ernst Dorn\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==87)
+			 {
+			 	printf("the element you are searching for is Francium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Francium\n");
+	    			printf("                  symbol: Fr\n");
+	    			printf("               atomic no: 87\n");
+	    			printf("           atomic weight: 223  amu\n");
+	    			printf("electronic configuration: [Rn] 7S^1\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: IA\n");
+	    			printf("           discovered by: Marguerite Perey\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==88)
+			 {
+			 	printf("the element you are searching for is Radium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Radium\n");
+	    			printf("                  symbol: Ra\n");
+	    			printf("               atomic no: 88\n");
+	    			printf("           atomic weight: 226  amu\n");
+	    			printf("electronic configuration: [Rn] 7s^2\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: IIA\n");
+	    			printf("           discovered by: Marie Sklodowska Curie and Perre Curie\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==89)
+			 {
+			 	printf("the element you are searching for is Actinium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Actinium\n");
+	    			printf("                  symbol: Ac\n");
+	    			printf("               atomic no: 89\n");
+	    			printf("           atomic weight: 227  amu\n");
+	    			printf("electronic configuration: [Rn]  6d^1 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Andre Debierne \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==90)
+			 {
+			 	printf("the element you are searching for is Thorium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Thorium\n");
+	    			printf("                  symbol: Th\n");
+	    			printf("               atomic no: 90\n");
+	    			printf("           atomic weight: 232.038  amu\n");
+	    			printf("electronic configuration: [Rn] 6d^2 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Jöns Jacob Berzelius\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==91)
+			 {
+			 	printf("the element you are searching for is  Protactinium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Protactinium\n");
+	    			printf("                  symbol: Pa\n");
+	    			printf("               atomic no: 91\n");
+	    			printf("           atomic weight: 231.0359  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^2 6d^1 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: K. Kajans and O.H. Gohring\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==92)
+			 {
+			 	printf("the element you are searching for is Uranium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Uranium\n");
+	    			printf("                  symbol: U\n");
+	    			printf("               atomic no: 92\n");
+	    			printf("           atomic weight: 238.029 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^3 6d^1 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Martin Heinrich Klaproth\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==93)
+			 {
+			 	printf("the element you are searching for is Neptunium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Neptunium\n");
+	    			printf("                  symbol: Np\n");
+	    			printf("               atomic no: 93\n");
+	    			printf("           atomic weight: 237  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^4 6d^1 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Edwin McMillan and Philip Abelson\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==94)
+			 {
+			 	printf("the element you are searching for is Plutonium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Plutonium\n");
+	    			printf("                  symbol: Pu\n");
+	    			printf("               atomic no: 94\n");
+	    			printf("           atomic weight: 244   amu\n");
+	    			printf("electronic configuration: [Rn]  5f^6 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: G.T. Seaborg\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==95)
+			 {
+			 	printf("the element you are searching for is Americium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Americium\n");
+	    			printf("                  symbol: Am\n");
+	    			printf("               atomic no: 95\n");
+	    			printf("           atomic weight: 243  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^7 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Glenn Seaborg \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==96)
+			 {
+			 	printf("the element you are searching for is Curium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Curium\n");
+	    			printf("                  symbol: Cm\n");
+	    			printf("               atomic no: 96\n");
+	    			printf("           atomic weight: 247  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^7 6d^1 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: G.T. Seaborg\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==97)
+			 {
+			 	printf("the element you are searching for is Berkelium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Berkelium\n");
+	    			printf("                  symbol: Bk\n");
+	    			printf("               atomic no: 97\n");
+	    			printf("           atomic weight: 247 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^9 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Stanley Thompson, Albert Ghiorso, and Glenn Seaborg\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==98)
+			 {
+			 	printf("the element you are searching for is Californium .\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Californium \n");
+	    			printf("                  symbol: Cf\n");
+	    			printf("               atomic no: 98\n");
+	    			printf("           atomic weight: 251   amu\n");
+	    			printf("electronic configuration: [Rn] 5f^10 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by:  Stanley Thompson, Kenneth Street, Jr., Albert Ghiorso, and Glenn Seaborg\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==99)
+			 {
+			 	printf("the element you are searching for is Einsteinium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Einsteinium\n");
+	    			printf("                  symbol: Es\n");
+	    			printf("               atomic no: 99\n");
+	    			printf("           atomic weight: 252 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^11 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Albert Ghiorso, Glenn T. Seaborg\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==100)
+			 {
+			 	printf("the element you are searching for is Fermium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Fermium\n");
+	    			printf("                  symbol: Fm\n");
+	    			printf("               atomic no: 100\n");
+	    			printf("           atomic weight: 257  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^12 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Albert Ghiorso \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	else if(a==101)
+			 {
+			 	printf("the element you are searching for is Mendelevium\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Mendelevium\n");
+	    			printf("                  symbol: Md\n");
+	    			printf("               atomic no: 101\n");
+	    			printf("           atomic weight: 258  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^13 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: G.T. Seaborg\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	         }
+	         	    else if(a==102)
+		    {
+		    	    printf("the element you are searching for is Nobelium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Nobelium\n");
+	    			printf("                  symbol: No\n");
+	    			printf("               atomic no: 102\n");
+	    			printf("           atomic weight: 259  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^13 6d^1 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Nobel Institute for Physics\n\n\n ");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+	        }
+	
+			else if(a==103)
+			{
+				 printf("the element you are searching for is Lawrencium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Lawrencium\n");
+	    			printf("                  symbol: Lr\n");
+	    			printf("               atomic no: 103\n");
+	    			printf("           atomic weight: 262 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 7s^2 7p^1\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: Actinide\n");
+	    			printf("           discovered by: Albert Ghiorso\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+			}
+			else if(a==104)	  
+			{
+			   printf("the element you are searching for is Rutherfordium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Rutherfordium\n");
+	    			printf("                  symbol: Rf\n");
+	    			printf("               atomic no: 104\n");
+	    			printf("           atomic weight: 267 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^2 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IVB\n");
+	    			printf("           discovered by: Georgy Flerov and colleagues\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+		    }
+			else if(a==105)
+			{
+				printf("the element you are searching for is Dubnium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Dubnium\n");
+	    			printf("                  symbol: Db\n");
+	    			printf("               atomic no: 105\n");
+	    			printf("           atomic weight: 268 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^3 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VB\n");
+	    			printf("           discovered by: Scientists at both Berkeley and Dubna\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			} 
+			else if(a==106)
+			{
+			  printf("the element you are searching for is Seaborgium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Seaborgium\n");
+	    			printf("                  symbol: Sg\n");
+	    			printf("               atomic no: 106\n");
+	    			printf("           atomic weight: 269  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^4 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIB\n");
+	    			printf("           discovered by:  Albert Ghiorso \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }		
+			 } 
+			 else if(a==107)
+			 {
+			 	printf("the element you are searching for is Bohrium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Bohrium\n");
+	    			printf("                  symbol: Bh\n");
+	    			printf("               atomic no: 107\n");
+	    			printf("           atomic weight: 262  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^5 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIIB\n");
+	    			printf("           discovered by: Peter Armbruster, Gottfried Münzenberg, and colleagues\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			 }
+			 else if(a==108)
+			 {
+			 	printf("the element you are searching for is Hassium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Hassium\n");
+	    			printf("                  symbol: Hs\n");
+	    			printf("               atomic no: 108\n");
+	    			printf("           atomic weight: 264.8 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^6 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: Peter Armbruster and Gottfried Muizenberg\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			 }
+			 else if(a==109)
+			 {
+			 	printf("the element you are searching for is Meitnerium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Meitnerium\n");
+	    			printf("                  symbol: Mt\n");
+	    			printf("               atomic no: 109\n");
+	    			printf("           atomic weight: 278  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14  6d^7  7s^2 \n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: Gesellschaft fur Schwerionenforschung\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }	
+			 }
+
+		        else if(a==110)
+			 {
+			 	printf("the element you are searching for is Darmstadtium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Darmstadtium\n");
+	    			printf("                  symbol: Ds\n");
+	    			printf("               atomic no: 110\n");
+	    			printf("           atomic weight: 261.9  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^9 7s^1\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: VIII\n");
+	    			printf("           discovered by: Gesellschaft für Schwerionenforschung\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==111)
+			 {
+			 	printf("the element you are searching for is Roentgenium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Roentgenium\n");
+	    			printf("                  symbol: Rg\n");
+	    			printf("               atomic no: 111\n");
+	    			printf("           atomic weight: 280 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^10 7s^1\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IB\n");
+	    			printf("           discovered by: Peter Armbruster and Gottfried Münzenberg\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==112)
+			 {
+			 	printf("the element you are searching for is Copernicium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Copernicium\n");
+	    			printf("                  symbol: Cn\n");
+	    			printf("               atomic no: 112\n");
+	    			printf("           atomic weight: 285  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^10 7s^2\n");
+	    			printf("                 valency: Variable\n");
+	    			printf("                   group: IIB\n");
+	    			printf("           discovered by: Gesellschaft fur Schwerionenforschung\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==113)
+			 {
+			 	printf("the element you are searching for is Nihonium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Nihonium (Ununtrium)\n");
+	    			printf("                  symbol: Nh\n");
+	    			printf("               atomic no: 113\n");
+	    			printf("           atomic weight: 286 amu \n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^10 7s^2 7p^1\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: IIIA\n");
+	    			printf("           discovered by: Scientists from the Joint Institute for Nuclear Research in Dubna, Russia, and Lawrence \n                          Livermore National Laboratory in California \n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==114)
+			 {
+			 	printf("the element you are searching for is Flerovium..\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Flerovium \n");
+	    			printf("                  symbol: Fl\n");
+	    			printf("               atomic no: 114\n");
+	    			printf("           atomic weight: 289 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^10 7s^2 7p^2\n");
+	    			printf("                 valency: 4\n");
+	    			printf("                   group: IVA\n");
+	    			printf("           discovered by: Scientists from the Joint Institute for Nuclear Research in Dubna, Russia and the Lawrence\n                          Livermore National Laboratory, California, USA\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==115)
+			 {
+			 	printf("the element you are searching for is Moscovium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Moscovium (Ununpentium)\n");
+	    			printf("                  symbol: Mc\n");
+	    			printf("               atomic no: 115\n");
+	    			printf("           atomic weight: 288  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^10 7s^2 7p^3\n");
+	    			printf("                 valency: 3\n");
+	    			printf("                   group: VA\n");
+	    			printf("           discovered by: Joint Institute for Nuclear Research\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==116)
+			 {
+			 	printf("the element you are searching for is Livermorium.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Livermorium\n");
+	    			printf("                  symbol: Lv\n");
+	    			printf("               atomic no: 116\n");
+	    			printf("           atomic weight: 293 amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^10 7s^ 7p^4\n");
+	    			printf("                 valency: 2\n");
+	    			printf("                   group: VIA\n");
+	    			printf("           discovered by: Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask); 
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==117)
+			 {
+			 	printf("the element you are searching for is Tennessine.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Tennessine (Ununseptium)\n");
+	    			printf("                  symbol: Ts\n");
+	    			printf("               atomic no: 117\n");
+	    			printf("           atomic weight: 294.211 amu\n");
+	    			printf("electronic configuration: [Rn]  5f^14 6d^10 7s^2 7p^5\n");
+	    			printf("                 valency: 1\n");
+	    			printf("                   group: VIIA\n");
+	    			printf("           discovered by: Scientists from the Joint Institute for Nuclear Research, Russia, and the USA.\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+				   else if(a==118)
+			 {
+			 	printf("the element you are searching for is Oganesson.\n\n The details of the elememt is as follow: \n\n");
+	    			printf("                    Name: Oganesson (Ununoctium)\n");
+	    			printf("                  symbol: Og\n");
+	    			printf("               atomic no: 118\n");
+	    			printf("           atomic weight: 294  amu\n");
+	    			printf("electronic configuration: [Rn] 5f^14 6d^10 7s^2 7p6\n");
+	    			printf("                 valency: 0\n");
+	    			printf("                   group: VIIIA(Noble gas)\n");
+	    			printf("           discovered by: Joint Institute for Nuclear Research and Lawrence Livermore National Laboratory\n\n\n");
+	    		    printf("do you want to continue?(Y/N)?\n\n");
+	    		    printf("Enter here: ");
+	    		    scanf("%s",&ask);
+	    		    	if(ask=='N'|| ask=='n')
+					{
+						printf(" The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+					else if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is not closed. You can continue to learn :) :)");
+	    		    goto start;
+	    		    }
+				}
+	
+	    
+	    else
+	    {
+	    	printf("\n\n The number you entered is not assigned.Please enter a valid number i.e between 1 t0 118 !!!\n\n" );
+					goto start;
+		}
+    }
+            else if (n==2)
+    	        {
+			        printf("Are you sure you eant to Exit?(Y/N)? \n\n");
+					printf("> enter Y for yes or N for No \n\n" );
+					printf("Enter Here: ");
+					scanf("%s",&ask);
+					
+					if(ask=='Y'|| ask=='y')
+					{
+						printf("The periodic table is now closed.Thank you for viewing. see you soon!!!");
+					}
+						else if(ask=='N'|| ask=='n')
+					{
+						printf("The periodic table is not closed. You can continue to learn......");
+						goto start;
+					}
+			    } 
+				else
+				{
+					printf("\n\n The number you entered is not assigned.Please enter a valid number i.e 1 or 2 !!!\n\n" );
+					goto beginning;
+				}
+				
+ }
+	         
+
